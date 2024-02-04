@@ -1,3 +1,3 @@
-def call(){
-    sh "echo my first shared lib code"
+def call(String name,String dayofWeek){
+    sh "Hi ${name}. Today is ${dayofWeek}..."
 }
