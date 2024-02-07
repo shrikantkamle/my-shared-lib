@@ -1,3 +1,3 @@
-def call(){
-    sh "echo Hi shrikant"
+def call(name,day){
+    sh "echo Hi ${name}. Today is ${day}."
 }
