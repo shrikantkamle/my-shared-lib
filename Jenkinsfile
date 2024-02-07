@@ -4,7 +4,7 @@ pipeline {
         stage("hello_world"){
             steps{
                 sleep 10
-                sh "echo helloworld"
+                helloWorld()
             }
         }
     }
