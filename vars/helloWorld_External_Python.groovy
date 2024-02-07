@@ -2,5 +2,6 @@ def call(Map config = [:]){
     loadPythonScript(name: "hello-world.py" )
     sh "cat  hello-world.py"
     sh "pwd"
-    sh "python -m hello-world.py ${config.name} ${config.dayofWeek}" 
+    sh "python3 -m hello-world.py ${config.name} ${config.dayofWeek}" 
+    
     }
