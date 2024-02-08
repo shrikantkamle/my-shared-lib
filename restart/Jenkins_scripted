@@ -1,0 +1,11 @@
+node {
+    stage("build"){
+        sh "echo hello from build"
+    }
+    stage("test"){
+        sh "echo hello from test"
+    }
+    stage("deploy"){
+        sh "echo hello from deploy"
+    }        
+}
